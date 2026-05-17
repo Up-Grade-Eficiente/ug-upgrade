@@ -1,0 +1,38 @@
+{
+  "name": "UG UpGrade Eficiente",
+  "short_name": "UG UpGrade",
+  "description": "Plataforma completa de gestão de negócios",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#007bff",
+  "theme_color": "#007bff",
+  "orientation": "portrait-primary",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/7.x/initials/svg?seed=UG&backgroundColor=007bff&textColor=ffffff",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://api.dicebear.com/7.x/initials/svg?seed=UG&backgroundColor=007bff&textColor=ffffff",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/?page=dashboard",
+      "description": "Ir ao Dashboard"
+    },
+    {
+      "name": "Cadastrar",
+      "url": "/?cadastro=true",
+      "description": "Criar nova conta"
+    }
+  ]
+}

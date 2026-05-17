@@ -1,0 +1,20 @@
+# ═══════════════════════════════════════════
+#  UG UpGrade — .gitignore
+# ═══════════════════════════════════════════
+
+# Variáveis de ambiente reais (NUNCA commitar)
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Wrangler local
+.wrangler/

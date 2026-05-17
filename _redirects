@@ -1,0 +1,12 @@
+# Cloudflare Pages — Redirects
+# Arquivo: _redirects
+# Garante que todas as rotas retornam o index.html (SPA)
+
+/dashboard    /index.html    200
+/client       /index.html    200
+/admin        /index.html    200
+/payment      /index.html    200
+/perfil       /index.html    200
+
+# Fallback SPA — mantém parâmetros de URL (?ref=, ?comerciante=)
+/*            /index.html    200

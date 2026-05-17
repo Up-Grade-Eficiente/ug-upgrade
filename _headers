@@ -1,0 +1,27 @@
+/*
+ * Cloudflare Pages — Headers de Segurança
+ * Arquivo: _headers
+ * Coloque na raiz do projeto (mesma pasta do index.html)
+ */
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=self, microphone=(), geolocation=()
+
+/api/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, OPTIONS
+  Access-Control-Allow-Headers: Content-Type
+  Cache-Control: no-store
+
+/*.html
+  Cache-Control: no-cache, must-revalidate
+
+/*.js
+  Cache-Control: public, max-age=86400
+
+/*.css
+  Cache-Control: public, max-age=86400
